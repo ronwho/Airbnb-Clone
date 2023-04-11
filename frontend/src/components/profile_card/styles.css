@@ -1,0 +1,8 @@
+.flexDiv{
+    display: flex; 
+    flex: row;
+}
+
+.marginleft20{
+    margin-left: 20px;
+}

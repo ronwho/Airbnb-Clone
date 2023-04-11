@@ -1,0 +1,316 @@
+.redColor{
+    color:rgb(208, 13, 13)
+}
+
+.marginRight10{
+    margin-right:10px;
+}
+
+.marginRight40{
+    margin-right:40px;
+}
+
+.marginRight80{
+    margin-right:80px;
+}
+
+.marginRight45{
+    margin-right:45px;
+}
+
+.marginRight100{
+    margin-right:100px;
+}
+
+.marginRight120{
+    margin-right:120px;
+}
+
+.marginRight110{
+    margin-right:110px;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.content-container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 10%;
+    padding-right: 10%;    
+    background-color: white;  
+ }
+
+ .underlined-div
+ {
+    border-bottom: solid; 
+    padding-bottom: 10px; 
+    border-color: rgba(0, 0, 0, 0.3);
+ }
+
+.large_emphasis{
+    font-size: calc(1.325rem + 1.3vw);   
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #f06626d8;
+}
+
+.small{
+    font-size: 1em;
+}
+
+.medium{
+    font-size: 1.4em;    
+}
+
+.subtitles{
+    font-size: calc(1.325rem + .9vw);
+    font-weight: 600;
+    color: #f06626d8;
+    margin-top: 40px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.price-input{
+    display: block;
+    width: 17vw;
+    height: 45px;
+    line-height: 45px;
+    border-style: solid;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;    
+}
+
+.reply-input{
+    display: block;
+    border-style: solid;
+    border-color: black;
+    background-color: #f1f1f1;
+    width: 25vw;
+    font-size: 1.2em;
+}
+
+.edit-input{
+    display: inline;
+    width: 35vw;
+    height: 45px;
+    line-height: 45px;
+    border-style: solid;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-bottom: 10px; 
+    margin-left: 20px;   
+}
+
+.inline-icon{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.gold-button{
+    background-color: #fed18c;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.orange-underline-button{
+    border-bottom: solid;
+    text-decoration: none;
+    color: #64acd9;
+    border-color: grey;
+}
+
+.orange-underline-button:hover{
+    background-color: #64acd9;
+    border-bottom: solid;
+    text-decoration: none;
+    color: #19689a;
+    border-color: #19689a;
+    cursor: pointer;
+}
+
+
+#general-info{
+    min-width: 10%;
+    margin-right: 30px;
+}
+
+#pricing-container{
+    margin-top: 50px;
+    border-style: solid;
+    background-color: white;    
+    padding: 1em;    
+ }
+
+
+#image-placements{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'side1 main main side2' 'side3 main main side4';
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#mainphoto{
+    grid-area: main;    
+    /*width: 35vw;
+    height: calc(30vw + 10px);*/
+    display: flex;
+    justify-content: center;
+}
+
+#side1{
+    grid-area: side1; 
+}
+
+#side2{
+    grid-area: side2;    
+}
+
+#side3{
+    grid-area: side3;
+}
+
+#side4{
+    grid-area: side4;    
+}
+
+#side1, #side2, #side3, #side4{
+    display: flex;
+    justify-content: center;
+}
+
+#comment-grid{
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+}
+
+#comment-col1{
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    margin-bottom: 50px;  
+}
+
+#comment-col2{
+    grid-column-start: 2; 
+    grid-column-end: 3;   
+    margin-bottom: 50px;
+}
+
+.three-col-grid{
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.col2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.col3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+.vertical-aligned{
+    display: flex;
+    align-items: center
+}
+
+.two-col{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.packed-text{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+.reply-button{
+    color: blue;
+    text-decoration: underline;
+}
+
+.avaliability-input{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.floating-topright{
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    z-index: 1;
+}
+
+#datepick-form{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+ @media only screen and (max-width: 900px) {
+    #image-placements{
+        display: grid;
+        gap: 10px;
+        grid-template-areas: 'main main' 'main main' 'side1 side2' 'side3 side4';
+    }
+
+    #info-and-rates{
+        display: block;        
+    }
+
+    #input-fields{
+        display: flex;
+        flex: row;
+        justify-content: space-between;
+    }
+
+    .price-input{
+        width: 30vw;
+    }
+
+    .reply-input{
+        width: 50vw;
+    }
+
+    #comment-grid{
+        display: block;
+    }
+
+    #stars{
+        width: 150px;
+        margin-left: 10px;
+    }
+
+ }

@@ -1,0 +1,8 @@
+.flex-spaced {
+  display: flex;
+  justify-content: space-around;
+}
+
+.float-right {
+  float: right;
+}

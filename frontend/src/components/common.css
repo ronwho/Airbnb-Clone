@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: white;
+    --bs-nav-link-disabled-color: white;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-toggler-icon{
+    background-image:url('../assets/white-bars.png') !important;
+    color: white;
+    scale: 0.65;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+input{
+    width: 100%;
+    border: none;
+}
+.datePicker{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+@media only screen and (max-width: 776px) {
+    .d-flex{
+        flex-direction: column;
+    }
+  }
